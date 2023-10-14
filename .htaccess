@@ -1,1 +1,4 @@
-user
+AuthType Basic
+AuthName "Passwort notwendig"
+AuthUserFile /.htpasswd
+Require valid-user
